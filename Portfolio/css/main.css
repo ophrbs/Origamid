@@ -1,0 +1,38 @@
+.main {
+  display: grid;
+  margin: 160px auto;
+  align-items: center;
+  max-width: 1200px;
+  gap: 100px;
+  padding-left: 150px;
+}
+
+.main div {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.main h1 {
+  font-size: 4.5rem;
+  line-height: 0.25;
+  color: var(--c13);
+  position: relative;
+}
+
+.main h1::before {
+  content: url(/img/detalhe-menor.svg);
+
+  position: absolute;
+  z-index: -1;
+  left: -40px;
+  top: -60px;
+}
+
+.main h2 {
+  font-size: 2rem;
+}
+
+.main p {
+  max-width: 55ch;
+}

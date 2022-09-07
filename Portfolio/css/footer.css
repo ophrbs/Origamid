@@ -1,0 +1,45 @@
+.contato-bg {
+  background-color: black;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 60px 0;
+  gap: 40px;
+}
+
+.footer-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  position: relative;
+}
+
+.contato a {
+  font-size: 36px;
+  line-height: 40px;
+  color: white;
+}
+
+.contato p {
+  font-size: 24px;
+  line-height: 32px;
+  color: var(--c4);
+  max-width: 32ch;
+}
+
+.contato > p {
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--c7);
+}
+
+.footer-div::before {
+  content: url(/img/detalhe.svg);
+  position: absolute;
+  z-index: 1;
+  top: -8rem;
+}

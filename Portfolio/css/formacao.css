@@ -1,0 +1,162 @@
+.formacao-bg {
+  background-color: var(--c13);
+  padding-top: 110px;
+  padding-bottom: 120px;
+}
+
+.formacao {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 auto;
+  max-width: 1200px;
+  gap: 100px;
+}
+
+.formacao-div {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.formacao-div > p {
+  max-width: 40ch;
+  color: var(--c6);
+}
+
+.formacao-div strong {
+  color: white;
+}
+
+.formacao-lugares {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formacao-titulo {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--c6);
+}
+
+.formacao-lugar {
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--c6);
+}
+
+.formacao-lugares > div {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 20px;
+  width: 204px;
+  height: 190px;
+  justify-content: space-between;
+}
+
+.formacao-formacao {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formacao-lugares h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: white;
+  max-width: 13ch;
+}
+
+.formacao-extras {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.formacao-extras-cursos > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formacao-extras-cursos div div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formacao .subtitulo {
+  max-width: 5ch;
+  color: black;
+}
+
+.formacao-extras span {
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.formacao-extras div div p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--c7);
+}
+
+.formacao-extras > div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.formacao-extras-idiomas div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formacao-extras-titulo {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--c7);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.formacao-extras-idiomas > .formacao-extras-titulo {
+  position: relative;
+}
+
+.formacao-extras-idiomas > .formacao-extras-titulo::before {
+  content: url(/img/idiomas.svg);
+  position: absolute;
+  left: -35px;
+  top: -5px;
+}
+
+.formacao-extras-cursos > .formacao-extras-titulo {
+  position: relative;
+}
+
+.formacao-extras-cursos > .formacao-extras-titulo::before {
+  content: url(/img/cursos.svg);
+  position: absolute;
+  left: -35px;
+  top: -5px;
+}
+
+.formacao-job {
+  position: relative;
+}
+
+.formacao-job::before {
+  content: "";
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(180deg, #b75fff 0%, #c782ff 100%);
+  z-index: 1;
+  position: absolute;
+  left: -24px;
+}

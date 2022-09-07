@@ -1,0 +1,112 @@
+.experiencia {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 120px auto;
+  max-width: 1200px;
+  gap: 100px;
+}
+
+.experiencia-div {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.experiencia-div > p {
+  max-width: 40ch;
+}
+
+.experiencia-lugares {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.experiencia-lugares > div {
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  background-color: var(--c2);
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  padding: 20px;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.detalhe-ref {
+  position: relative;
+}
+
+.detalhe-ref::before {
+  content: "";
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(180deg, #b75fff 0%, #c782ff 100%);
+  z-index: 1;
+  position: absolute;
+  left: -24px;
+}
+
+.experiencia-lugares-1 {
+  position: relative;
+}
+
+.experiencia-lugares-1::before {
+  content: "2022";
+  position: absolute;
+  left: -50px;
+  top: 23px;
+  font-size: 0.9rem;
+  color: var(--c9);
+}
+
+.experiencia-lugares-2 {
+  position: relative;
+}
+
+.experiencia-lugares-2::before {
+  content: "2022";
+  position: absolute;
+  left: -50px;
+  top: 23px;
+  font-size: 0.9rem;
+  color: var(--c9);
+}
+
+.experiencia-lugares-3 {
+  position: relative;
+}
+
+.experiencia-lugares-3::before {
+  content: "2022";
+  position: absolute;
+  left: -50px;
+  top: 23px;
+  font-size: 0.9rem;
+  color: var(--c9);
+}
+
+.experiencia-lugares div p {
+  font-size: 14px;
+  line-height: 20px;
+  max-width: 48ch;
+}
+
+.subtitulo {
+  color: var(--c3);
+}
+
+.experiencia-lugares-tag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 15rem;
+}
+
+.experiencia-lugares-tag p {
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  align-self: flex-start;
+  color: var(--c13);
+}
