@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import "/css/global.css";
+@import "/css/header.css";
+@import "/css/sobre.css";
+@import "/css/produtos.css";
+@import "/css/precos.css";
+@import "/css/qualidade.css";
+@import "/css/footer.css";
+
+:root {
+  --cor-primaria: #2c70ff;
+  --cor-secundaria: #122ab2;
+  --cinza1: #222222;
+  --cinza2: #7c7c7c;
+  --cinza3: #a4a4a4;
+  --branco1: #f7f7f7;
+  --purple: #ae81ff;
+  --pink: #f9265e;
+  --blue: #66d9eb;
+  --cobre: #b87333;
+  --prata: #c0c0c0;
+  --ouro: #ffd700;
+}

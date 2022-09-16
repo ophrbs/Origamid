@@ -1,0 +1,40 @@
+/* Introdução */
+.introducao {
+  font-size: 3em;
+  line-height: 1;
+  max-width: 960px;
+  margin: 60px auto;
+  padding: 0 10px;
+}
+
+/* Sobre */
+.sobre {
+  border-top: 2px solid var(--cor-primaria);
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10x;
+}
+
+.sobre-info h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: var(--cinza2);
+}
+
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
