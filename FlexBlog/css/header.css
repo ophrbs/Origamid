@@ -54,3 +54,16 @@
 .menu-nav a:hover {
   color: var(--cor-secundaria);
 }
+
+/* Responsive */
+@media (max-width: 600px) {
+  .superinfo {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 360px) {
+  .menu-nav ul {
+    justify-content: space-around;
+  }
+}

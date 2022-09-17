@@ -71,3 +71,10 @@
   font-size: 1.25em;
   color: var(--cor-secundaria);
 }
+
+/* Responsive */
+@media (max-width: 500px) {
+  .newsletter-form {
+    flex-wrap: wrap;
+  }
+}

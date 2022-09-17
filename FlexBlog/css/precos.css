@@ -79,3 +79,26 @@
   padding: 15px 0;
   text-align: center;
 }
+
+/* Responsive */
+@media (max-width: 600px) {
+  .preco-item a {
+    font-size: 1.5em;
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .preco {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 460px) {
+  .preco-item li {
+    display: block;
+  }
+  .preco-item li::after {
+    display: none;
+  }
+}
