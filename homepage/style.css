@@ -1,0 +1,178 @@
+/* geral */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Baumans&family=IBM+Plex+Mono&display=swap");
+
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #0e1013;
+}
+
+h1 {
+  margin: 0px;
+}
+
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.header-logos {
+  display: flex;
+  gap: 42px;
+}
+
+.header-logos h1 {
+  font-family: "Baumans";
+  font-weight: normal;
+  cursor: default;
+  color: #fff;
+}
+
+.header-logos img {
+  height: 100%;
+  width: 100%;
+  align-self: center;
+}
+
+.header-btn {
+  text-decoration: none;
+  padding: 0.7rem 1.8rem;
+  border: 1px solid #8844ee;
+  border-radius: 6px;
+  font-family: "DM Sans";
+  text-transform: uppercase;
+  color: #f9f9f9;
+}
+
+.header-btn:hover {
+  background-color: #8844ee;
+  color: #fff;
+  transition: 0.4s;
+}
+
+/* main */
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.main-about {
+  margin-top: 40px;
+}
+
+.main-about h2 {
+  font-family: "IBM Plex Mono";
+  text-transform: uppercase;
+  color: #aa88ff;
+  margin: 0px;
+}
+
+.main-about h1 {
+  font-family: "IBM Plex Mono";
+  font-size: 4rem;
+  color: #f9f9f9;
+}
+
+.main-about p {
+  font-family: "DM Sans";
+  font-size: 1.2rem;
+  color: #aeaeae;
+}
+
+/* cards and card list */
+.main-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1200px) {
+  main {
+    align-items: center;
+  }
+
+  .main-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background-color: #1b1d20;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card-text {
+  padding: 20px;
+  font-family: "DM Sans";
+}
+
+.card-text h3 {
+  margin: 0px;
+  font-family: "IBM Plex Mono";
+  color: #f9f9f9;
+}
+
+.card-text {
+  color: #aeaeae;
+  font-size: 1rem;
+  max-width: 30ch;
+}
+
+.card-curso {
+  color: #9889be;
+}
+
+.card-links {
+  display: flex;
+  gap: 10px;
+}
+
+.card-links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+.btn-demo {
+  padding: 0.4rem 2.2rem;
+  color: #0e091b;
+  background-color: #8844ee;
+  border-radius: 4px;
+}
+
+.btn-demo:hover {
+  background-color: #4f29af;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.btn-github {
+  padding: 0.4rem 2.2rem;
+  color: #f9f9f9;
+  border: 1px solid #8844ee;
+  border-radius: 4px;
+}
+
+.btn-github:hover {
+  border: 1px solid #4f29af;
+}
