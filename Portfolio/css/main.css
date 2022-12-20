@@ -21,7 +21,7 @@
 }
 
 .main h1::before {
-  content: url(/img/detalhe-menor.svg);
+  content: url(./img/detalhe-menor.svg);
 
   position: absolute;
   z-index: -1;
