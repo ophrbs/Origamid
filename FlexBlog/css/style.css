@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
-@import "./css/global.css";
-@import "./css/header.css";
-@import "./css/sobre.css";
-@import "./css/produtos.css";
-@import "./css/precos.css";
-@import "./css/qualidade.css";
-@import "./css/footer.css";
+@import "./global.css";
+@import "./header.css";
+@import "./sobre.css";
+@import "./produtos.css";
+@import "./precos.css";
+@import "./qualidade.css";
+@import "./footer.css";
 
 :root {
   --cor-primaria: #2c70ff;
