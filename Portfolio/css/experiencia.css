@@ -129,4 +129,7 @@
   .experiencia-lugares > div p {
     grid-row: 2;
   }
+  .experiencia-lugares > div:before {
+    display: none;
+  }
 }
