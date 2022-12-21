@@ -21,8 +21,7 @@
 }
 
 .main h1::before {
-  content: url(./img/detalhe-menor.svg);
-
+  content: url(../img/detalhe.svg);
   position: absolute;
   z-index: -1;
   left: -40px;
@@ -51,5 +50,9 @@
   }
   .main p {
     font-size: 1.25rem;
+  }
+  .main h1::before {
+    content: url(../img/detalhe-menor.svg);
+    top: -30px;
   }
 }

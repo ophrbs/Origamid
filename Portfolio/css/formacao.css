@@ -131,7 +131,7 @@
 }
 
 .formacao-extras-idiomas > .formacao-extras-titulo::before {
-  content: url(./img/idiomas.svg);
+  content: url(../img/idiomas.svg);
   position: absolute;
   left: -35px;
   top: -5px;
@@ -142,7 +142,7 @@
 }
 
 .formacao-extras-cursos > .formacao-extras-titulo::before {
-  content: url(./img/cursos.svg);
+  content: url(../img/cursos.svg);
   position: absolute;
   left: -35px;
   top: -5px;
@@ -182,5 +182,8 @@
   .formacao-extra h3::before {
     position: initial;
     margin-bottom: 10px;
+  }
+  .formacao-extras-titulo::before {
+    display: none;
   }
 }
