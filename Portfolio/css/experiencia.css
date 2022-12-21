@@ -110,3 +110,23 @@
   align-self: flex-start;
   color: var(--c13);
 }
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 20px;
+  }
+  .experiencia .subtitulo {
+    color: black;
+  }
+  .experiencia-div > p {
+    font-size: 1.25rem;
+  }
+  .experiencia-lugares > div {
+    grid-template-columns: 1fr;
+  }
+  .experiencia-lugares > div p {
+    grid-row: 2;
+  }
+}

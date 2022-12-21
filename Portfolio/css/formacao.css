@@ -29,6 +29,7 @@
 
 .formacao-lugares {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -159,4 +160,27 @@
   z-index: 1;
   position: absolute;
   left: -24px;
+}
+
+@media (max-width: 800px) {
+  .formacao {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 40px;
+  }
+  .formacao-lugares {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .formacao .subtitulo {
+    color: white;
+  }
+  .formacao p {
+    font-size: 1.25rem;
+  }
+  .formacao-extra h3::before {
+    position: initial;
+    margin-bottom: 10px;
+  }
 }

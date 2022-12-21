@@ -43,3 +43,13 @@
   z-index: 1;
   top: -8rem;
 }
+
+@media (max-width: 800px) {
+  .footer-div {
+    grid-template-columns: 1fr;
+  }
+  footer p {
+    margin: 0 auto;
+    text-align: center;
+  }
+}

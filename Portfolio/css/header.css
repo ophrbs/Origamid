@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 40px auto;
   max-width: 1200px;
@@ -17,4 +18,15 @@
   padding: 0.5rem;
   font-size: 1.125rem;
   color: var(--c13);
+}
+
+@media (max-width: 800px) {
+  .header a {
+    border: 1px solid var(--c13);
+    border-radius: 4px;
+  }
+  .header {
+    justify-content: space-around;
+    gap: 20px;
+  }
 }
