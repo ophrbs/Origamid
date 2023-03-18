@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+}
+
 body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
@@ -16,11 +20,9 @@ a {
 
 img {
   max-width: 100%;
+  object-fit: cover;
 }
 
-.container {
-  box-sizing: border-box;
-  max-width: 1200px;
-  padding: 0 20px;
-  margin: 0 auto;
+img[src$=".jpg"] {
+  border-radius: 4px;
 }
