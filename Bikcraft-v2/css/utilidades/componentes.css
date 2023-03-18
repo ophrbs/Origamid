@@ -56,3 +56,27 @@
   padding-right: 20px;
   margin: 0 auto;
 }
+
+/* titulos internos */
+.titulo-bg {
+  background-color: var(--c11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo {
+    padding-bottom: 40px;
+    padding-bottom: 40px;
+  }
+
+  .titulo p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: lowercase;
+  }
+}
