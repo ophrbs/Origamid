@@ -18,6 +18,8 @@
   display: inline-block;
   color: var(--p5);
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
