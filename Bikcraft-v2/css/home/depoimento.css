@@ -63,6 +63,5 @@
 @media (min-width: 1200px) {
   .depoimento figure img {
     max-height: 520px;
-    display: block;
   }
 }
